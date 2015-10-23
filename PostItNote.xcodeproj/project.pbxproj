@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA300F0D1BDA879100CC67FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA300F0C1BDA879100CC67FC /* AppDelegate.swift */; };
+		FA300F0F1BDA879100CC67FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA300F0E1BDA879100CC67FC /* ViewController.swift */; };
+		FA300F111BDA879100CC67FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA300F101BDA879100CC67FC /* Assets.xcassets */; };
+		FA300F141BDA879100CC67FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA300F121BDA879100CC67FC /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA300F271BDA87C300CC67FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA300F011BDA879100CC67FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA300F081BDA879100CC67FC;
+			remoteInfo = PostItNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA300F091BDA879100CC67FC /* PostItNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostItNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA300F0C1BDA879100CC67FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA300F0E1BDA879100CC67FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA300F101BDA879100CC67FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA300F131BDA879100CC67FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA300F151BDA879100CC67FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA300F1F1BDA87C000CC67FC /* Spec.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spec.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA300F231BDA87C000CC67FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA300F061BDA879100CC67FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA300F1C1BDA87C000CC67FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA300F001BDA879100CC67FC = {
+			isa = PBXGroup;
+			children = (
+				FA300F0B1BDA879100CC67FC /* PostItNote */,
+				FA300F201BDA87C000CC67FC /* Spec */,
+				FA300F0A1BDA879100CC67FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA300F0A1BDA879100CC67FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA300F091BDA879100CC67FC /* PostItNote.app */,
+				FA300F1F1BDA87C000CC67FC /* Spec.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA300F0B1BDA879100CC67FC /* PostItNote */ = {
+			isa = PBXGroup;
+			children = (
+				FA300F0C1BDA879100CC67FC /* AppDelegate.swift */,
+				FA300F0E1BDA879100CC67FC /* ViewController.swift */,
+				FA300F101BDA879100CC67FC /* Assets.xcassets */,
+				FA300F121BDA879100CC67FC /* Main.storyboard */,
+				FA300F151BDA879100CC67FC /* Info.plist */,
+			);
+			path = PostItNote;
+			sourceTree = "<group>";
+		};
+		FA300F201BDA87C000CC67FC /* Spec */ = {
+			isa = PBXGroup;
+			children = (
+				FA300F231BDA87C000CC67FC /* Info.plist */,
+			);
+			path = Spec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA300F081BDA879100CC67FC /* PostItNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA300F181BDA879100CC67FC /* Build configuration list for PBXNativeTarget "PostItNote" */;
+			buildPhases = (
+				FA300F051BDA879100CC67FC /* Sources */,
+				FA300F061BDA879100CC67FC /* Frameworks */,
+				FA300F071BDA879100CC67FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostItNote;
+			productName = PostItNote;
+			productReference = FA300F091BDA879100CC67FC /* PostItNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA300F1E1BDA87C000CC67FC /* Spec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA300F241BDA87C000CC67FC /* Build configuration list for PBXNativeTarget "Spec" */;
+			buildPhases = (
+				FA300F1B1BDA87C000CC67FC /* Sources */,
+				FA300F1C1BDA87C000CC67FC /* Frameworks */,
+				FA300F1D1BDA87C000CC67FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA300F281BDA87C300CC67FC /* PBXTargetDependency */,
+			);
+			name = Spec;
+			productName = Spec;
+			productReference = FA300F1F1BDA87C000CC67FC /* Spec.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA300F011BDA879100CC67FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ConditionallyConvergent;
+				TargetAttributes = {
+					FA300F081BDA879100CC67FC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FA300F1E1BDA87C000CC67FC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FA300F081BDA879100CC67FC;
+					};
+				};
+			};
+			buildConfigurationList = FA300F041BDA879100CC67FC /* Build configuration list for PBXProject "PostItNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA300F001BDA879100CC67FC;
+			productRefGroup = FA300F0A1BDA879100CC67FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA300F081BDA879100CC67FC /* PostItNote */,
+				FA300F1E1BDA87C000CC67FC /* Spec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA300F071BDA879100CC67FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA300F111BDA879100CC67FC /* Assets.xcassets in Resources */,
+				FA300F141BDA879100CC67FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA300F1D1BDA87C000CC67FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA300F051BDA879100CC67FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA300F0F1BDA879100CC67FC /* ViewController.swift in Sources */,
+				FA300F0D1BDA879100CC67FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA300F1B1BDA87C000CC67FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA300F281BDA87C300CC67FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA300F081BDA879100CC67FC /* PostItNote */;
+			targetProxy = FA300F271BDA87C300CC67FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA300F121BDA879100CC67FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA300F131BDA879100CC67FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA300F161BDA879100CC67FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA300F171BDA879100CC67FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA300F191BDA879100CC67FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PostItNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conditionallyconvergent.PostItNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA300F1A1BDA879100CC67FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PostItNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conditionallyconvergent.PostItNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA300F251BDA87C000CC67FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Spec/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conditionallyconvergent.Spec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostItNote.app/Contents/MacOS/PostItNote";
+			};
+			name = Debug;
+		};
+		FA300F261BDA87C000CC67FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Spec/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conditionallyconvergent.Spec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostItNote.app/Contents/MacOS/PostItNote";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA300F041BDA879100CC67FC /* Build configuration list for PBXProject "PostItNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA300F161BDA879100CC67FC /* Debug */,
+				FA300F171BDA879100CC67FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA300F181BDA879100CC67FC /* Build configuration list for PBXNativeTarget "PostItNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA300F191BDA879100CC67FC /* Debug */,
+				FA300F1A1BDA879100CC67FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA300F241BDA87C000CC67FC /* Build configuration list for PBXNativeTarget "Spec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA300F251BDA87C000CC67FC /* Debug */,
+				FA300F261BDA87C000CC67FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA300F011BDA879100CC67FC /* Project object */;
+}
